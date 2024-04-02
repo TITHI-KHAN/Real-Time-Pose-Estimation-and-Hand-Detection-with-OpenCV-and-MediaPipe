@@ -46,13 +46,13 @@ This Python script performs real-time pose estimation using a pre-trained Tensor
 
 This script demonstrates how to perform real-time pose estimation using a pre-trained TensorFlow model and visualize the detected keypoints on the input video stream.
 
-*** Best Case : threshold, thr = 0.5
+*** **Best Case** : threshold, thr = 0.5
 
-*** Worst Case : threshold, thr = 0.2
+*** **Worst Case** : threshold, thr = 0.2
 
-*** If the person is close to the camera, then confidence level decreases and keypoints are also less.
+*** **If the person is close to the camera**, then confidence level decreases and keypoints are also less.
 
-*** If the person is far from the camera, then confidence level increases and keypoints are also more & one point gets connected to the others.
+*** **If the person is far from the camera**, then confidence level increases and keypoints are also more & one point gets connected to the others.
 
 ## Key Points:
 
